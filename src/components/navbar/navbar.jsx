@@ -16,9 +16,10 @@ const Navbar = () => {
       <div className="collapse navbar-collapse">
         <ul className="nav navbar-nav navbar-right">
           <li><a href="#home" className="smoothScroll">HOME</a></li>
-          <li><a href="#about" className="smoothScroll">ABOUT</a></li>
+          <li><a href="#about" className="smoothScroll">SERVICES</a></li>
           <li><a href="#portfolio" className="smoothScroll">PORTFOLIO</a></li>
           <li><a href="#team" className="smoothScroll">TEAM</a></li>
+          <li><a href="#happen" className="smoothScroll">HAPPEN</a></li>
           <li><a href="#contact" className="smoothScroll">CONTACT</a></li>
         </ul>
       </div>
