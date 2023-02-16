@@ -9,7 +9,7 @@ const Services = () => {
         <div class="container">
             <div className="row">
                     <div className="col-md-12 col-sm-12 text-center">
-                        <h1 className="heading bold">ABOUT US</h1>
+                        <h1 className="heading bold title">SERVICES</h1>
                         <h2 className="subheading">Strategic planning. Measurable results</h2>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
