@@ -28,8 +28,9 @@ const Services = () => {
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ducimus maxime error, nihil odit doloribus eos ex, neque culpa molestiae iusto tempora sed? Amet perspiciatis asperiores quidem tenetur exercitationem inventore!</p>
                     </div>
                     <hr />
-                    <div className="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <img src={aboutImg} className="img-responsive" alt="about img" />
+                    <div className="col-md-6 col-sm-6 wow fadeInUp vedio" data-wow-delay="0.6s" >
+                        {/* <img src={aboutImg} className="img-responsive" alt="about img" /> */}
+                        <iframe className="video-container" title="vimeo-player" src="https://player.vimeo.com/video/522685321?h=582e4de3a3" max-width="540"  height="300" frameborder="0"    allowfullscreen ></iframe>
                     </div>
                     <div className="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
                         <h3>Our Dedication</h3>
