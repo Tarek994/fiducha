@@ -27,6 +27,9 @@
   	background: #FFD321;
   	transition: all 0.3s ease-in-out;
 }
+.navbar-brand:hover{
+    cursor: pointer!important;
+}
 .custom-navbar .nav > li > a:focus {
   	background-color: transparent;
   	outline: none;
