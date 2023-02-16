@@ -35,3 +35,22 @@
     background: #404040;
     color: #ffffff;
   }
+
+  h3 .bold{
+    background: #eee;
+    padding:0rem 1rem;
+  }
+
+   .heading{
+    margin: 0rem auto;
+    max-width: fit-content;
+    background: #eee;
+    padding:0rem 2rem;
+  }
+
+
+  .title{
+    background: #fff !important;
+  }
+
+  
