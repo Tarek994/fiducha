@@ -1,9 +1,11 @@
 .custom-navbar {
-    background: #ffffff;
+    background: #ffffff!important;
+    opacity: 0.85;
+    
     margin-bottom: 0;
 }
 .custom-navbar .navbar-brand  {
-	color: #303030;
+	color: #000;
 	font-size: 40px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
@@ -13,7 +15,7 @@
     color: #fff;
 }
 .custom-navbar .nav li a {
-    color: #505050;
+    color: #000;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 4px;
@@ -52,4 +54,12 @@
             background: #fff;
             border-bottom: 1px solid #eeeeee;
         }
+}
+
+@media(max-width: 991px){
+    .custom-navbar .nav li a {
+        font-size: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
