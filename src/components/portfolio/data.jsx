@@ -17,23 +17,23 @@ export const projectImages = {
 }
 
 export const projectDescriptions = {
-    "project-1": "ipsum dolor sit amet consectetur adipisicing",
-    "project-2": "Lorem  elit. ",
-    "project-3": "Commodi vero iure harum tempora",
-    "project-4": "quos architecto voluptatem ducimus totam odit",
-    "project-5": ", veritatis, quo consequuntur consequatur",
-    "project-6": ", veritatis, quo consequuntur consequatur",
+    "portfolio-img1": "ipsum dolor sit amet consectetur adipisicing",
+    "portfolio-img2": "Lorem  elit. ",
+    "portfolio-img3": "Commodi vero iure harum tempora",
+    "portfolio-img4": "quos architecto voluptatem ducimus totam odit",
+    "portfolio-img5": ", veritatis, quo consequuntur consequatur",
+    "portfolio-img6": ", veritatis, quo consequuntur consequatur",
 
 
 }
 
 export const projectNames = {
-    "Project 1": "Admin Dashboard",
-    "Project 2": "Best Portfolio",
-    "Project 3": "Social Blog",
-    "Project 4": "Apple",
-    "Project 5": "Acer website",
-    "Project 6": "Sound library",
+    "portfolio-img1": "Admin Dashboard",
+    "portfolio-img2": "Best Portfolio",
+    "portfolio-img3": "Social Blog",
+    "portfolio-img4": "Apple",
+    "portfolio-img5": "Acer website",
+    "portfolio-img6": "Sound library",
 
     
   }
