@@ -1,5 +1,5 @@
 .custom-navbar {
-    background: #ffffff!important;
+    background: #eeeeee;
     opacity: 0.85;
     
     margin-bottom: 0;
@@ -64,5 +64,8 @@
         font-size: 10px;
         padding-right: 10px;
         padding-left: 10px;
+    }
+    .custom-navbar{
+        
     }
 }
