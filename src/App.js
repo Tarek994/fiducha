@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 import Services from './components/services/services';
 import Portfolio from './components/portfolio/portfolio';
+import Team from "./components/team/team";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Home/>
         <Services/>
         <Portfolio/>
+        <Team/>
 
       </BrowserRouter>
     
