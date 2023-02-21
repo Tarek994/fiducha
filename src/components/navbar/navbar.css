@@ -1,5 +1,5 @@
 .custom-navbar {
-    background: #eeeeee;
+    background: #eeeeee!important;
     opacity: 0.85;
     
     margin-bottom: 0;
@@ -65,7 +65,14 @@
         padding-right: 10px;
         padding-left: 10px;
     }
-    .custom-navbar{
-        
+    
+}
+@media(max-width:768px){
+    .logo{
+        color: #FFD321;
     }
+
+.custom-navbar{
+    background: transparent!important;
+}
 }
