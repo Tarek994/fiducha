@@ -1,0 +1,16 @@
+#team {
+  text-align: center;
+}
+
+#team h3 {
+  color: #202020;
+}
+
+#team .team-des {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.background {
+  background: #fff !important;
+}
