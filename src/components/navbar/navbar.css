@@ -35,7 +35,7 @@
   	outline: none;
 }
 .custom-navbar .nav li.active > a {
-    background-color: #FFD321;
+    background-color: #FFD321!important;
 }
 .custom-navbar .navbar-toggle {
     border: none;
@@ -74,5 +74,8 @@
 
 .custom-navbar{
     background: transparent!important;
+}
+.navbar-collapse{
+    background: #fff;
 }
 }
