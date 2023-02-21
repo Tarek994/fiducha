@@ -9,10 +9,10 @@ import Team from "./components/team/team";
 function App() {
   return (
     <BrowserRouter>
-        <Navbar/>
+        {/* <Navbar/>
         <Home/>
         <Services/>
-        <Portfolio/>
+        <Portfolio/> */}
         <Team/>
 
       </BrowserRouter>
