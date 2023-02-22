@@ -37,3 +37,9 @@
   background: #ffd321;
   color: #ffffff;
 }
+
+@media (max-width:768px){
+  .background {
+  font-size: 30px;
+  }
+}
