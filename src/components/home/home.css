@@ -1,56 +1,59 @@
 #home {
-    background: url('../../images/hero.jpeg') no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100vh;
-    text-align: center;
-  }
-  #home hr {
-    border: 2px solid #000;
-    width: 100px;
-  }
-  #home h3 {
-    letter-spacing: 2px;
-  }
-  #home .btn {
-    background: #eee;
-    border-radius: 0;
-    border: 3px solid #404040;
-    color: #404040;
-    font-weight: bold;
-    padding: 16px 42px;
-    margin-top: 40px;
-    transition: all 0.4s ease-in-out;
-  }
-  #home .btn:hover {
-    background: #404040;
-    color: #ffffff;
-  }
+  background: url("../../images/hero.jpeg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+#home hr {
+  border: 2px solid #000;
+  width: 100px;
+}
+#home h3 {
+  letter-spacing: 2px;
+}
+#home .btn {
+  background: #eee;
+  border-radius: 0;
+  border: 3px solid #404040;
+  color: #404040;
+  font-weight: bold;
+  padding: 16px 42px;
+  margin-top: 40px;
+  transition: all 0.4s ease-in-out;
+}
+#home .btn:hover {
+  background: #404040;
+  color: #ffffff;
+}
 
-  h3 .bold{
-    background: #eee;
-    padding:0rem 1rem;
+h3 .bold {
+  background: #eee;
+  padding: 0rem 1rem;
+}
+
+.heading {
+  margin: 0rem auto;
+  max-width: fit-content;
+  background: #eee;
+  padding: 0rem 2rem;
+}
+
+.title {
+  background: #fff !important;
+}
+
+@media (max-width: 768px) {
+  h3 .bold {
+    font-size: 20px;
   }
-
-   .heading{
-    margin: 0rem auto;
-    max-width: fit-content;
-    background: #eee;
-    padding:0rem 2rem;
-  }
-
-
-  .title{
-    background: #fff !important;
-  }
-
-  
+}
