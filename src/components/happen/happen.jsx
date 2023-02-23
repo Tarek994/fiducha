@@ -3,6 +3,7 @@ import team1 from "../../images/team1.jpeg";
 import team2 from "../../images/team2.webp";
 import team3 from "../../images/team3.jpg";
 import "./happen.css";
+import "../../index.css";
 
 const Happen = () => {
   return (
