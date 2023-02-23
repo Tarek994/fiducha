@@ -1,8 +1,87 @@
+#portfolio {
+  padding-top: 100px;
+  background: #f9f9f9;
+  text-align: center;
+}
+#portfolio .container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.title-pro1 {
+  background: transparent !important;
+}
+#portfolio .col-md-4 {
+  padding: 0;
+  margin: 0;
+}
+#portfolio img {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+#portfolio img:hover {
+  opacity: 0.6;
+}
+/* FILTER CSS */
+.filter-wrapper {
+  width: 100%;
+  margin: 40px 0 24px 0;
+  overflow: hidden;
+  text-align: center;
+}
+.filter-wrapper li {
+  display: inline-block;
+  margin: 4px;
+}
+.filter-wrapper li a {
+  color: #999999;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 17px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.filter-wrapper li .selected,
+.filter-wrapper li a:focus,
+.filter-wrapper li a:hover {
+  background: #ffd321;
+  color: #ffffff;
+  outline: none;
+}
 
-
-
-.title-pro1{
-    
-        background:transparent !important;
-    
+/* ISOTOPE BOX CSS */
+.iso-box-section {
+  width: 100%;
+}
+.iso-box-wrapper {
+  width: 100%;
+  padding: 0;
+  clear: both;
+  position: relative;
+}
+.iso-box {
+  position: relative;
+  min-height: 50px;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.iso-box > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.iso-box > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.fluid-img {
+  width: 100%;
+  display: block;
 }
