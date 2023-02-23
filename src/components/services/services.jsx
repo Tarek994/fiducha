@@ -1,13 +1,13 @@
-import "../../index.css";
+
+import "./services.css";
 import React from 'react';
-import aboutImg from '../../images/about-img.png';
 
 
 const Services = () => {
   return (
     <section id="about">
         <div class="container">
-            <div className="row">
+            <div className="row center">
                     <div className="col-md-12 col-sm-12 text-center">
                         <h1 className="heading bold title">SERVICES</h1>
                         <h2 className="subheading">Strategic planning. Measurable results</h2>
