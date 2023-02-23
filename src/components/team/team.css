@@ -11,6 +11,46 @@
   padding-bottom: 40px;
 }
 
+.row {
+  display: flex !important;
+  flex-direction: column !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.wow {
+  max-width: 350px;
+  margin: 1rem;
+  padding: 1rem;
+  border: #202020 1px solid;
+}
+
 .background {
   background: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .row {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  .wow {
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 90%;
+ 
+  }
 }
