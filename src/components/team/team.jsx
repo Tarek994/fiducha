@@ -7,14 +7,14 @@ const Team = () => {
   return (
     <section id="team">
       <div className="container">
-        <div className="row">
+        <div className="row more">
           <div className="col-md-12 col-sm-12">
             <h1 className="heading bold background">OUR TEAM</h1>
             <h2 className="subheading">CREATIVE TALENTS FROM WEST COAST</h2>
           </div>
           <div className="cards">
             <div
-              className="col-md-4 col-sm-4 col-xs-12 wow fadeIn"
+              className="col-md-4 col-sm-4 col-xs-12 wow plus fadeIn"
               data-wow-delay="0.9s"
             >
               <div className="team-wrapper">
