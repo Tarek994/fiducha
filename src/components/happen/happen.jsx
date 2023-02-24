@@ -3,7 +3,6 @@ import team1 from "../../images/team1.jpeg";
 import team2 from "../../images/team2.webp";
 import team3 from "../../images/team3.jpg";
 import "./happen.css";
-import "../../index.css";
 
 const Happen = () => {
   return (
@@ -14,8 +13,9 @@ const Happen = () => {
             <h1 className="heading bold background">OPPORTUNITY <span className="yellow"> HUB!</span></h1>
             <h2 className="subheading">LET'S BE MORE <span className="yellow">CREATIVE</span> , LET'S HAVE MORE <span className="yellow">EVENTS</span>.</h2>
           </div>
+          <div className="cards">
           <div
-            className="col-md-4 col-sm-4 col-xs-6 wow fadeIn fa-border "
+            className="col-md-4 col-sm-4 col-xs-10 wow fadeIn fa-border "
             data-wow-delay="0.9s"
           >
             <Card.Img className="img-responsive" variant="top" src={team1} />
@@ -32,7 +32,7 @@ const Happen = () => {
           </div>
 
           <div
-            className="col-md-4 col-sm-4 col-xs-6 wow fadeIn fa-border"
+            className="col-md-4 col-sm-4 col-xs-10 wow fadeIn fa-border"
             data-wow-delay="0.9s"
           >
             <Card.Img className="img-responsive" variant="top" src={team2} />
@@ -48,7 +48,7 @@ const Happen = () => {
             </Card.Body>
           </div>
           <div
-            className="col-md-4 col-sm-4 col-xs-6 wow fadeIn fa-border"
+            className="col-md-4 col-sm-4 col-xs-10 wow fadeIn fa-border"
             data-wow-delay="0.9s"
           >
             <Card.Img className="img-responsive" variant="top" src={team3} />
@@ -62,6 +62,7 @@ const Happen = () => {
                 Enrollment
               </Button>
             </Card.Body>
+          </div>
           </div>
         </div>
       </div>
