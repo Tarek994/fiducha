@@ -1,5 +1,4 @@
 import { useForm } from "react-hook-form";
-import "../../index.css";
 import "./contact.css";
 
 const Contact = () => {
@@ -19,29 +18,29 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="container">
-        <div className="row">
+        <div className="row ">
           <div className="col-md-12 col-sm-12 text-center">
             <h1 className="heading bold background">CONTACT US</h1>
             <h2 className="subheading">WE LOVE PRETTY MUCH TO HEAR FROM YOU</h2>
           </div>
         </div>
-        <div className="row">
+        <div className="row grid">
           <div
-            className="contact-info-box col-md-4 col-sm-4 col-xs-6 wow fadeInUp"
+            className="contact-info-box col-md-4 col-sm-4 col-xs-12 wow fadeInUp"
             data-wow-delay="0.6s"
           >
             <i className="fa fa-phone"></i>
             <h3>+20-2-383-0652</h3>
           </div>
           <div
-            className="contact-info-box col-md-4 col-sm-4 col-xs-6 wow fadeInUp"
+            className="contact-info-box col-md-4 col-sm-4 col-xs-12 wow fadeInUp"
             data-wow-delay="0.8s"
           >
             <i className="fa fa-envelope-o"></i>
             <h3>info@fiducha.com</h3>
           </div>
           <div
-            className="contact-info-box col-md-4 col-sm-4 col-xs-6 wow fadeInUp"
+            className="contact-info-box col-md-4 col-sm-4 col-xs-12 wow fadeInUp"
             data-wow-delay="1s"
           >
             <i className="fa fa-map-marker"></i>
