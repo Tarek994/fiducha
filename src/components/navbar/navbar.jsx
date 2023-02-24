@@ -13,7 +13,7 @@ const Navbar = () => {
           <span className="icon icon-bar"></span>
         </button>
         <Link to="home" spy={true} smooth={true} duration={900} className="navbar-brand">
-            <span className="bold logo">Fiduccia</span>
+            <span className="bold logo">FIDUCHA</span>
         </Link>
 
       </div>
