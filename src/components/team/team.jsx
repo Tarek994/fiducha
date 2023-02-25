@@ -27,7 +27,7 @@ const Team = () => {
             </div>
 
             <div
-              className="col-md-4 col-sm-4 col-xs-12 wow fadeIn"
+              className="col-md-4 col-sm-4 col-xs-12 wow plus fadeIn"
               data-wow-delay="1.3s"
             >
               <div className="team-wrapper">
@@ -39,7 +39,7 @@ const Team = () => {
               </div>
             </div>
             <div
-              className="col-md-4 col-sm-4 col-xs-12 wow fadeIn "
+              className="col-md-4 col-sm-4 col-xs-12 wow plus fadeIn "
               data-wow-delay="1.6s"
             >
               <div className="team-wrapper">
