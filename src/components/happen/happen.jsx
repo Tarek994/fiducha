@@ -13,7 +13,7 @@ const Happen = () => {
             <h1 className="heading bold background">OPPORTUNITY <span className="yellow"> HUB!</span></h1>
             <h2 className="subheading">LET'S BE MORE <span className="yellow">CREATIVE</span> , LET'S HAVE MORE <span className="yellow">EVENTS</span>.</h2>
           </div>
-          <div className="cards">
+          <div className="cards-1">
           <div
             className="col-md-4 col-sm-4 col-xs-10 wow fadeIn fa-border "
             data-wow-delay="0.9s"
