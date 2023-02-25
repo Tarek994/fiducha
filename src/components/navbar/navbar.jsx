@@ -19,12 +19,12 @@ const Navbar = () => {
       </div>
       <div className="collapse navbar-collapse">
         <ul className="nav navbar-nav navbar-right">
-          <li><a href="#home" className="smoothScroll">HOME</a></li>
-          <li><a href="#about" className="smoothScroll">SERVICES</a></li>
-          <li><a href="#portfolio" className="smoothScroll">PORTFOLIO</a></li>
-          <li><a href="#team" className="smoothScroll">TEAM</a></li>
-          <li><a href="#happen" className="smoothScroll">HAPPEN</a></li>
-          <li><a href="#contact" className="smoothScroll">CONTACT</a></li>
+          <li><Link to="/" className="smoothScroll">HOME</Link></li>
+          <li><Link to="about" className="smoothScroll">SERVICES</Link></li>
+          <li><Link to="portfolio" className="smoothScroll">PORTFOLIO</Link></li>
+          <li><Link to="team" className="smoothScroll">TEAM</Link></li>
+          <li><Link to="happen" className="smoothScroll">HAPPEN</Link></li>
+          <li><Link to="contact" className="smoothScroll">CONTACT</Link></li>
         </ul>
       </div>
     </div>
