@@ -64,21 +64,8 @@ const Portfolio = () => {
             <h2 className="subheading">MOBILE, WEB AND BRAND IDENTITY</h2>
             {/* ISO section   */}
             <div className="iso-section">
-              {/* <ul className="filter-wrapper clearfix">
-                   		 <li><Link to="#" data-filter="*" className="selected opc-main-bg">All</Link></li>
-                   		 <li><Link to="#" className="opc-main-bg" data-filter=".html">Html</Link></li>
-                   		 <li><Link to="#" className="opc-main-bg" data-filter=".photoshop">Photoshop</Link></li>
-                    	 <li><Link to="#" className="opc-main-bg" data-filter=".wordpress">Wordpress</Link></li>
-                    	 <li><Link to="#" className="opc-main-bg" data-filter=".mobile">Mobile</Link></li>
-               		</ul> */}
               <div className="iso-box-section wow fadeIn" data-wow-delay="0.9s">
                 <div className="iso-box-wrapper col4-iso-box">
-                  {/* <div className="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6 col-xs-6">
-               				 	<Link to="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="" alt="portfolio img"/>
-                                </Link>
-               				 </div> */}
-
                   <Link>
                     <Project
                       className="iso-box wordpress mobile"
@@ -116,54 +103,6 @@ const Portfolio = () => {
                       title="portfolio-img6"
                     />
                   </Link>
-
-                  {/* <div className="iso-box wordpress col-md-4 col-lg-4 col-sm-6 col-xs-6">
-               				 	<Link to="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="images/portfolio-img2.jpg" alt="portfolio img"/>
-                                </Link>
-               				 </div>
-
-               				 <div className="iso-box html mobile col-lg-4 col-md-4 col-sm-6 col-xs-12">
-               				 	<Link to="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="images/portfolio-img3.jpg" alt="portfolio img"/>
-                                </Link>
-               				 </div>
-
-               				 <div className="iso-box wordpress col-lg-4 col-md-4 col-sm-6 col-xs-6">
-               				 	<Link to="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="images/portfolio-img4.jpg" alt="portfolio img"/>
-                                </Link>
-               				 </div>
-
-               				 <div className="iso-box html photoshop col-lg-4 col-md-4 col-sm-6 col-xs-6">
-               				 	<Link to="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="images/portfolio-img5.jpg" alt="portfolio img"/>
-                                </Link>
-               				 </div>
-
-               				 <div className="iso-box photoshop col-lg-4 col-md-4 col-sm-6 col-xs-12">
-               				 	<Link to="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="images/portfolio-img6.jpg" alt="portfolio img"/>
-                                </Link>
-               				 </div>
-
-               				 <div className="iso-box photoshop mobile col-lg-4 col-md-4 col-sm-12 col-xs-6">
-               				 	<Link to="images/portfolio-img7.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="images/portfolio-img7.jpg" alt="portfolio img"/>
-                                </Link>
-               				 </div>
-
-               				 <div className="iso-box photoshop mobile col-lg-4 col-md-4 col-sm-6 col-xs-6">
-               				 	<Link to="images/portfolio-img8.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="images/portfolio-img8.jpg" alt="portfolio img"/>
-                                </Link>
-               				 </div>
-
-               				 <div className="iso-box wordpress mobile col-lg-4 col-md-4 col-sm-6 col-xs-12">
-               				 	<Link to="images/portfolio-img9.jpg" data-lightbox-gallery="portfolio-gallery">
-                                    <img src="images/portfolio-img9.jpg" alt="portfolio img"/>
-                                </Link>
-               				 </div> */}
                 </div>
               </div>
             </div>
