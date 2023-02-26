@@ -1,0 +1,45 @@
+#happen {
+  text-align: center;
+  background: #eeeeee;
+  padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#happen h3 {
+  color: #202020;
+}
+
+#happen .happen-des {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.background {
+  background: transparent !important;
+}
+
+.yellow {
+  color: #ffd321;
+}
+
+.btn-primary {
+  background: #eee;
+  border-radius: 0;
+  border: 3px solid #404040;
+  color: #404040;
+  font-weight: bold;
+  padding: 16px 42px;
+  margin-top: 40px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: #ffd321;
+  color: #ffffff;
+}
+
+@media (max-width:768px){
+  .background {
+  font-size: 30px;
+  }
+}

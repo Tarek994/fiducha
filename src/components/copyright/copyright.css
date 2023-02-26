@@ -1,0 +1,35 @@
+#copyright {
+    background: rgb(161, 158, 158);
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #copyright p {
+    padding-top: 20px;
+    letter-spacing: 1px;
+    color: #000;
+  }
+  #copyright a {
+      color: #fff;
+  }
+  #copyright a:hover {
+      color: #FFD321;
+      text-decoration: none;
+      transition: all 0.4s ease-in-out;
+  }
+  #copyright .fa {
+    background: #eee;
+    color: #383838;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.4s ease-in-out;
+  }
+  #copyright .fa:hover {
+    background: #FFD321;
+    color: #000;
+  }
