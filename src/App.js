@@ -1,5 +1,11 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+} from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 import Services from "./components/services/services";
@@ -10,10 +16,21 @@ import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer.jsx";
 import CopyRight from "./components/copyright/copyright";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <div id="section-1"></div>
         <Routes>
