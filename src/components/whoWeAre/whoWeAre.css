@@ -1,24 +1,24 @@
 .main {
-    background: #eeeeee;
-
-    text-align: center;
+  background: #eeeeee;
+  text-align: center;
 }
 
 .max-width {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-    max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  max-width: 1400px;
 }
 
 .main-des {
-    background: #ffffff;
+  background: #ffffff;
+}
 
+.description {
+  margin-bottom: 1rem;
 }
-.description{
-    margin-bottom:1rem ;
-}
-.gallery{
-    margin-bottom: 1rem;
+
+.gallery {
+  margin-bottom: 1rem;
 }
