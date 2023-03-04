@@ -22,6 +22,7 @@ export default function InstagramPost() {
       variant="outlined"
       sx={{
         minWidth: 300,
+        maxWidth: 400,
         "--Card-radius": (theme) => theme.vars.radius.xs,
       }}
     >
