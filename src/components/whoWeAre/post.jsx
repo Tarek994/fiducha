@@ -15,6 +15,7 @@ import ModeCommentOutlined from "@mui/icons-material/ModeCommentOutlined";
 import SendOutlined from "@mui/icons-material/SendOutlined";
 import Face from "@mui/icons-material/Face";
 import BookmarkBorderRoundedIcon from "@mui/icons-material/BookmarkBorderRounded";
+import hero1 from "../../images/hero1.jpg";
 
 export default function InstagramPost() {
   return (
@@ -50,7 +51,7 @@ export default function InstagramPost() {
             sx={{ p: 0.5, border: "2px solid", borderColor: "background.body" }}
           />
         </Box>
-        <Typography fontWeight="lg">MUI</Typography>
+        <Typography fontWeight="lg">Fiducha</Typography>
         <IconButton
           variant="plain"
           color="neutral"
@@ -62,7 +63,7 @@ export default function InstagramPost() {
       </Box>
       <CardOverflow>
         <AspectRatio>
-          <img src="/static/images/cards/yosemite.jpeg" alt="" loading="lazy" />
+          <img src={hero1} alt="" loading="lazy" />
         </AspectRatio>
       </CardOverflow>
       <Box sx={{ display: "flex", alignItems: "center", mx: -1, my: 1 }}>
