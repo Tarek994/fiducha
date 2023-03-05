@@ -23,7 +23,7 @@ export default function InstagramPost() {
       variant="outlined"
       sx={{
         minWidth: 300,
-        maxWidth: 400,
+        maxWidth: 500,
         "--Card-radius": (theme) => theme.vars.radius.xs,
       }}
     >
@@ -47,7 +47,7 @@ export default function InstagramPost() {
         >
           <Avatar
             size="sm"
-            src="/static/logo.png"
+            src=""
             sx={{ p: 0.5, border: "2px solid", borderColor: "background.body" }}
           />
         </Box>
@@ -108,16 +108,16 @@ export default function InstagramPost() {
       >
         8.1M Likes
       </Link>
-      <Typography fontSize="sm">
+      <Typography fontSize="lg">
         <Link
           component="button"
           color="neutral"
           fontWeight="lg"
           textColor="text.primary"
         >
-          MUI
+          Fiducha
         </Link>{" "}
-        The React component library you always wanted
+        is a marketing agency company
       </Typography>
       <Link
         component="button"
