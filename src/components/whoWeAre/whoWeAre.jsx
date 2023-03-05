@@ -1,5 +1,5 @@
 import "./whoWeAre.css";
-import InstagramPost from "./post.jsx"
+import InstagramPost from "./post.jsx";
 
 const WhoWeAre = () => {
   return (
@@ -11,14 +11,29 @@ const WhoWeAre = () => {
         </div>
         <div className="main-des col-12">
           <div className="description col-lg-6 col-sm-12 col-xs-12">
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing </p>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing </p>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+            <h4> What kind of people we are ? </h4>
+            <br />
+            <p>
+              {" "}
+              Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum,
+              dolor sit amet consectetur adipisicing
+            </p>
+            <br />
+            <p>
+              {" "}
+              Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum,
+              dolor sit amet consectetur adipisicing
+            </p>{" "}
+            <br />
+            <p>
+              {" "}
+              Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum,
+              dolor sit amet consectetur adipisicing
+            </p>
           </div>
           <div className="gallery col-lg-6 col-sm-12 col-xs-12">
-            <InstagramPost/>
+            <InstagramPost />
           </div>
-
         </div>
       </div>
     </div>
