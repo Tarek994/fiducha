@@ -2,7 +2,7 @@
   text-align: center;
   background: #eeeeee;
   padding-top: 100px;
-	padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 #happen h3 {
@@ -38,8 +38,28 @@
   color: #ffffff;
 }
 
-@media (max-width:768px){
+.row{
+  display: flex;
+  flex-direction: column;
+  text-align: center !important;
+}
+
+.new{
+  margin: auto;
+  width: 80%;
+}
+
+
+
+@media (max-width: 768px) {
   .background {
-  font-size: 30px;
+    font-size: 30px;
+  }
+  .cards1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin: auto;
   }
 }
