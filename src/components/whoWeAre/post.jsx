@@ -15,15 +15,26 @@ import ModeCommentOutlined from "@mui/icons-material/ModeCommentOutlined";
 import SendOutlined from "@mui/icons-material/SendOutlined";
 import Face from "@mui/icons-material/Face";
 import BookmarkBorderRoundedIcon from "@mui/icons-material/BookmarkBorderRounded";
-import hero1 from "../../images/hero1.jpg";
+import { useState } from 'react';
 
-export default function InstagramPost() {
+
+
+export default function InstagramPost({ imageUrls }) {
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentIndex((currentIndex + 1) % imageUrls.length);
+  };
+
+
+
   return (
     <Card
       variant="outlined"
       sx={{
-        minWidth: 300,
-        maxWidth: 500,
+        minWidth: 200,
+        
         "--Card-radius": (theme) => theme.vars.radius.xs,
       }}
     >
@@ -62,8 +73,8 @@ export default function InstagramPost() {
         </IconButton>
       </Box>
       <CardOverflow>
-        <AspectRatio>
-          <img src={hero1} alt="" loading="lazy" />
+      <AspectRatio>
+          <img src={imageUrls} alt="" loading="lazy" />
         </AspectRatio>
       </CardOverflow>
       <Box sx={{ display: "flex", alignItems: "center", mx: -1, my: 1 }}>
