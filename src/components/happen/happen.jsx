@@ -1,4 +1,4 @@
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import team1 from "../../images/team1.jpeg";
 import team2 from "../../images/team2.webp";
 import team3 from "../../images/team3.jpg";
@@ -19,21 +19,20 @@ const Happen = () => {
             </h2>
           </div>
           <div
-              className="col-md-8 col-sm-8 col-xs-10 wow fadeIn fa-border card new"
-              data-wow-delay="0.9s"
-            >
-              <Card.Title className="bold">Soon, incredibly rewarding opportunities</Card.Title>
-                <Card.Text>
+            className=" col-md-8 col-sm-8 col-xs-10 wow fadeIn fa-border card new"
+            data-wow-delay="0.9s"
+          >
+            <Card.Title className="bold">
+              Soon, incredibly rewarding opportunities
+            </Card.Title>
+            <Card.Body className="happen-des">
+              <Card.Text>
                 Keep up-to-date on all events and activities announced here
-                </Card.Text>
-              <Card.Img className="img-responsive" variant="top" src={team1} />
-              <Card.Body className="happen-des">
-                
-                
-              </Card.Body>
-            </div>
+              </Card.Text>
+            </Card.Body>
+            <Card.Img className="img-responsive" variant="top" src={team1} />
+          </div>
 
- 
           {/* <div className="cards1">
             <div
               className="col-md-4 col-sm-4 col-xs-10 wow fadeIn fa-border card"
