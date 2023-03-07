@@ -8,7 +8,7 @@ const Happen = () => {
   return (
     <section id="happen">
       <div className="container">
-        <div className="row ">
+        <div className="row-1 ">
           <div className="col-md-12 col-sm-12">
             <h1 className="heading bold background">
               OPPORTUNITY <span className="yellow"> HUB!</span>
