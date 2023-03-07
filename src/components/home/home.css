@@ -14,6 +14,12 @@
   height: 100vh;
   text-align: center;
 }
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
 #home hr {
   border: 2px solid #000;
   width: 100px;
