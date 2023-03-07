@@ -31,7 +31,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="about" className="smoothScroll">
+              <Link to="services" className="smoothScroll">
                 SERVICES
               </Link>
             </li>
