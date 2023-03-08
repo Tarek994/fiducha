@@ -41,14 +41,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="team" className="smoothScroll">
+              {/* <Link to="team" className="smoothScroll">
                 TEAM
-              </Link>
+              </Link> */}
             </li>
             <li>
-              <Link to="happen" className="smoothScroll">
+              {/* <Link to="happen" className="smoothScroll">
                 HAPPEN
-              </Link>
+              </Link> */}
             </li>
             <li>
               <Link to="contact" className="smoothScroll">
