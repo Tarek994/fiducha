@@ -38,39 +38,7 @@ const WhoWeAre = () => {
             </p>
           </div>
           <div className="gallery wow col-lg-6 col-sm-12 col-xs-12  ">
-            <img className="who-image" src={hero} alt="" />
-          </div>
-        </div>
-
-        <div className="line"></div>
-
-        <div className="main-des second col-lg-12 wow " data-wow-delay="0.9s">
-          <div className="gallery wow col-lg-6 col-sm-12 col-xs-12  ">
             <img className="who-image" src={hero1} alt="" />
-          </div>
-          <div
-            className="description col-lg-6 col-sm-12 col-xs-12 wow "
-            data-wow-delay="0.9s"
-          >
-            <h4> What can we do for you ? </h4>
-            <br />
-            <p>
-              {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum,
-              dolor sit amet consectetur adipisicing
-            </p>
-            <br />
-            <p>
-              {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum,
-              dolor sit amet consectetur adipisicing
-            </p>{" "}
-            <br />
-            <p>
-              {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum,
-              dolor sit amet consectetur adipisicing
-            </p>
           </div>
         </div>
       </div>
