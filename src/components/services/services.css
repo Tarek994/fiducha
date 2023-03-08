@@ -1,4 +1,15 @@
-#about .col-md-4 .fa {
+#marketing .col-md-4 .fa {
+  background: #ffd321;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 32px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#digitalMarketing .col-md-4 .fa {
   background: #ffd321;
   border-radius: 50%;
   color: #ffffff;
@@ -11,6 +22,10 @@
 }
 #services {
   padding-top: 100px;
+}
+.main-services{
+  max-width: 1400px;
+  margin: auto;
 }
 
 .text-center {
