@@ -13,17 +13,15 @@ const MainServices = () => {
 
       <div className="row services-cards">
         <div className="row">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            
-          >
+          <div className="d-flex justify-content-center align-items-center">
             <div className="col-md-6 col-sm-12 d-flex justify-content-center mb-4">
               <Card
                 style={{
                   width: "60%",
                   margin: "0 auto",
-                  border: "1px solid black",
-                  padding: "10px",
+                  paddingBottom: "10px",
+                  marginRight: "4rem",
+                  boxShadow: "0 5px 25px rgba(1 1 1 /15%)",
                 }}
               >
                 <div style={{ position: "relative" }}>
@@ -39,7 +37,9 @@ const MainServices = () => {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Link to="/about" className="btn btn-primary">Go to Services</Link>
+                  <Link to="/digitalMarketing" className="btn btn-primary">
+                    Go to Services
+                  </Link>
                 </Card.Body>
               </Card>
             </div>
@@ -54,8 +54,9 @@ const MainServices = () => {
                 style={{
                   width: "60%",
                   margin: "0 auto",
-                  border: "1px solid black",
-                  padding: "10px",
+                  paddingBottom: "10px",
+                  marginLeft: "4rem",
+                  boxShadow: "0 5px 25px rgba(1 1 1 /15%)",
                 }}
               >
                 <div style={{ position: "relative" }}>
@@ -66,12 +67,14 @@ const MainServices = () => {
                   />
                 </div>
                 <Card.Body className="body-center">
-                  <Card.Title className="bold"> marketing Services</Card.Title>
+                  <Card.Title className="bold"> MARKETING</Card.Title>
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Link to="/about" className="btn btn-primary">Go to Services</Link>
+                  <Link to="/marketing" className="btn btn-primary">
+                    Go to Services
+                  </Link>
                 </Card.Body>
               </Card>
             </div>
