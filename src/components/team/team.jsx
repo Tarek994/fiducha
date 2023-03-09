@@ -50,6 +50,54 @@ const Team = () => {
                 </div>
               </div>
             </div>
+            <div
+              className="col-md-4 col-sm-4 col-xs-12 wow plus fadeIn "
+              data-wow-delay="1.6s"
+            >
+              <div className="team-wrapper">
+                <img src={team3} className="img-responsive" alt="team img" />
+                <div className="team-des">
+                  <h4>Mary</h4>
+                  <h4>Web Ads</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4 col-sm-4 col-xs-12 wow plus fadeIn "
+              data-wow-delay="1.6s"
+            >
+              <div className="team-wrapper">
+                <img src={team3} className="img-responsive" alt="team img" />
+                <div className="team-des">
+                  <h4>Mary</h4>
+                  <h4>Web Ads</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4 col-sm-4 col-xs-12 wow plus fadeIn "
+              data-wow-delay="1.6s"
+            >
+              <div className="team-wrapper">
+                <img src={team3} className="img-responsive" alt="team img" />
+                <div className="team-des">
+                  <h4>Mary</h4>
+                  <h4>Web Ads</h4>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4 col-sm-4 col-xs-12 wow plus fadeIn "
+              data-wow-delay="1.6s"
+            >
+              <div className="team-wrapper">
+                <img src={team3} className="img-responsive" alt="team img" />
+                <div className="team-des">
+                  <h4>Mary</h4>
+                  <h4>Web Ads</h4>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
