@@ -21,7 +21,7 @@ const Team = () => {
                 <img src={team1} className="img-responsive " alt="team img" />
                 <div className="team-des">
                   <h4>Tracy</h4>
-                  <h3>Social Marketing</h3>
+                  <h4 >Social Marketing</h4>
                 </div>
               </div>
             </div>
@@ -34,7 +34,7 @@ const Team = () => {
                 <img src={team2} className="img-responsive" alt="team img" />
                 <div className="team-des">
                   <h4>Linda</h4>
-                  <h3>Digital Marketing</h3>
+                  <h4>Digital Marketing</h4>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Team = () => {
                 <img src={team3} className="img-responsive" alt="team img" />
                 <div className="team-des">
                   <h4>Mary</h4>
-                  <h3>Web Ads</h3>
+                  <h4>Web Ads</h4>
                 </div>
               </div>
             </div>
