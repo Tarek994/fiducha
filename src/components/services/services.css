@@ -23,10 +23,7 @@
 #services {
   padding-top: 100px;
 }
-.main-services {
-  max-width: 1400px;
-  margin: auto;
-}
+
 
 .text-center {
   display: flex;
@@ -101,6 +98,7 @@
   width: 500px;
 }
 
+
 @media (max-width: 768px) {
   .vedio {
     padding-top: 20px !important;
@@ -124,8 +122,6 @@
   .center {
     text-align: center;
   }
+  
 }
 
-.services-cards {
-  padding: 0rem rem;
-}
