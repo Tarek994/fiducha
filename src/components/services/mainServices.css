@@ -1,0 +1,80 @@
+.main-services {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #212529;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+.services-cards {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .services-cards {
+    flex-direction: column;
+  }
+
+  .cardss {
+    width: 90%;
+    margin: 1rem;
+  }
+}
+
+.cardss-1 {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
+}
+.cardss-2 {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
+}
+
+.cardss-1:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.3);
+}
+.cardss-2:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.3);
+}
+
+.cardss .card-img-top {
+  position: relative;
+}
+
+.cardss .card-img-top img {
+  width: 100%;
+  height: auto;
+}
+
+.body-center {
+  padding: 0rem 1rem;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 600;
+}

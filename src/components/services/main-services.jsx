@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import download from "./images/download.jpeg";
 import { Link } from "react-router-dom";
-import "./new.css";
+import "./mainServices.css";
 
 const MainServices = () => {
   return (
