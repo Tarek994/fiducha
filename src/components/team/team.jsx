@@ -10,7 +10,9 @@ const Team = () => {
         <div className="row more">
           <div className="col-md-12 col-sm-12">
             <h1 className="heading bold background">OUR TEAM</h1>
-            <h2 className="subheading">CREATIVE TALENTS FROM WEST COAST</h2>
+            <h2 className="subheading bold">
+              CREATIVE TALENTS FROM WEST COAST
+            </h2>
           </div>
           <div className="cards">
             <div
@@ -21,7 +23,7 @@ const Team = () => {
                 <img src={team1} className="img-responsive " alt="team img" />
                 <div className="team-des">
                   <h4>Tracy</h4>
-                  <h4 >Social Marketing</h4>
+                  <h4>Social Marketing</h4>
                 </div>
               </div>
             </div>
