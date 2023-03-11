@@ -39,19 +39,19 @@ function App() {
 
         <div id="section-1"></div>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/WhoWeAre" element={<WhoWeAre />} />
-          <Route exact path="/services" element={<MainServices />} />
+          <Route  path="/" element={<Home />} />
+          <Route  path="/WhoWeAre" element={<WhoWeAre />} />
+          <Route  path="/services" element={<MainServices />} />
           <Route
-            exact
+            
             path="/digitalMarketing"
             element={<DigitalMarketing />}
           />
-          <Route exact path="/marketing" element={<Marketing />} />
+          <Route  path="/marketing" element={<Marketing />} />
 
-          <Route exact path="/portfolio" element={<Portfolio />} />
-          <Route exact path="/team" element={<Team />} />
-          <Route exact path="/happen" element={<Happen />} />
+          <Route  path="/portfolio" element={<Portfolio />} />
+          <Route  path="/team" element={<Team />} />
+          <Route  path="/happen" element={<Happen />} />
         </Routes>
         <Contact />
         <Footer />
