@@ -2,6 +2,7 @@ import Card from "react-bootstrap/Card";
 import download from "./images/download.jpeg";
 import { Link } from "react-router-dom";
 import "./mainServices.css";
+import "../../index.css";
 
 const MainServices = () => {
   return (
@@ -9,12 +10,12 @@ const MainServices = () => {
       <div className="row text-center">
         <div className="col-md-12 col-sm-12">
           <h1 className="heading bold title">SERVICES</h1>
-          <h2 className="subheading">Strategic planning. Measurable results</h2>
+          <h2 className="subheading bold">Strategic planning. Measurable results</h2>
         </div>
       </div>
 
       <div className="row services-cards justify-content-center">
-        <div className="col-md-6 col-sm-12 mb-4">
+        <div className="col-md-6 col-sm-12 mb-4 ">
           <div className="cardss-1">
             <Card className="card-style">
               <div style={{ position: "relative" }}>
