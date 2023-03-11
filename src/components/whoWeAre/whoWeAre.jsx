@@ -1,4 +1,5 @@
 import "./whoWeAre.css";
+import "../../index.css";
 import React from "react";
 
 import hero1 from "../../images/hero1.jpg";
@@ -10,7 +11,7 @@ const WhoWeAre = () => {
       <div className="max-width col-12">
         <div className="col-12 ">
           <h1 className="Who-title">WHO WE ARE</h1>
-          <h2 className="subheading">what can we do for you?</h2>
+          <h2 className="subheading bold">what can we do for you?</h2>
         </div>
         <div className="main-des col-lg-12 wow " data-wow-delay="0.9s">
           <div
