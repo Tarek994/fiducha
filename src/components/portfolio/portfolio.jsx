@@ -61,7 +61,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="col-md-12 col-sm-12">
             <h1 className="heading bold title-pro1">PORTFOLIO</h1>
-            <h2 className="subheading">MOBILE, WEB AND BRAND IDENTITY</h2>
+            <h2 className="subheading bold">MOBILE, WEB AND BRAND IDENTITY</h2>
             {/* ISO section   */}
             <div className="iso-section">
               <div className="iso-box-section wow fadeIn" data-wow-delay="0.9s">
