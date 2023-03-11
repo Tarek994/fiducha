@@ -21,7 +21,9 @@ const Contact = () => {
         <div className="row ">
           <div className="col-md-12 col-sm-12 text-center">
             <h1 className="heading bold background">CONTACT US</h1>
-            <h2 className="subheading">WE LOVE PRETTY MUCH TO HEAR FROM YOU</h2>
+            <h2 className="subheading bold">
+              WE LOVE PRETTY MUCH TO HEAR FROM YOU
+            </h2>
           </div>
         </div>
         <div className="row grid">

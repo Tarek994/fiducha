@@ -2,8 +2,6 @@ import "../../index.css";
 import "./footer.css";
 import { Link } from "react-router-dom";
 
-
-
 const Footer = () => {
   return (
     <footer>
@@ -33,8 +31,6 @@ const Footer = () => {
                   data-wow-delay="0.9s"
                 ></Link>
               </li>
-              
-              
             </ul>
           </div>
         </div>
