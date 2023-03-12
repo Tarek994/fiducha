@@ -5,7 +5,9 @@ import {
   Route,
   Routes,
   useLocation,
+  Navigate,
 } from "react-router-dom";
+
 import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 // import Services from "./components/services/services";
@@ -32,34 +34,32 @@ function ScrollToTop() {
 
 function App() {
   return (
-    
-      <Router>
-        <ScrollToTop />
-        <Navbar />
+    <Router>
+      <ScrollToTop />
+      <Navbar />
 
-        <div id="section-1"></div>
-        <Routes>
-        <Route exact path="/" element={<Home />} />
+      <div id="section-1"></div>
+      <Routes>
+        <Route exact path="/" element={<Navigate replace to="/fiducha" />} />
 
-          <Route exact path="/fiducha" element={<Home />} />
-          <Route  path="/fiducha/whoWeAre" element={<WhoWeAre />} />
-          <Route  path="/fiducha/services" element={<MainServices />} />
-          <Route
-            
-            path="/fiducha/digitalMarketing"
-            element={<DigitalMarketing />}
-          />
-          <Route  path="/fiducha/marketing" element={<Marketing />} />
+        <Route exact path="/fiducha" element={<Home />} />
+        <Route exact path="/fiducha/whoWeAre" element={<WhoWeAre />} />
+        <Route exact path="/fiducha/services" element={<MainServices />} />
+        <Route
+          exact
+          path="/fiducha/digitalMarketing"
+          element={<DigitalMarketing />}
+        />
+        <Route exact path="/fiducha/marketing" element={<Marketing />} />
 
-          <Route  path="/fiducha/portfolio" element={<Portfolio />} />
-          <Route  path="/fiducha/team" element={<Team />} />
-          <Route  path="/fiducha/happen" element={<Happen />} />
-        </Routes>
-        <Contact />
-        <Footer />
-        <CopyRight />
-      </Router>
-    
+        <Route exact path="/fiducha/portfolio" element={<Portfolio />} />
+        <Route exact path="/fiducha/team" element={<Team />} />
+        <Route exact path="/fiducha/happen" element={<Happen />} />
+      </Routes>
+      <Contact />
+      <Footer />
+      <CopyRight />
+    </Router>
   );
 }
 export default App;
