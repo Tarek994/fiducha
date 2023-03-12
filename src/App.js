@@ -32,7 +32,7 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <>
+    
       <Router>
         <ScrollToTop />
         <Navbar />
@@ -57,7 +57,7 @@ function App() {
         <Footer />
         <CopyRight />
       </Router>
-    </>
+    
   );
 }
 export default App;
