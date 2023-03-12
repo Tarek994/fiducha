@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fiducha/static/css/main.db8f3442.css",
-    "main.js": "/fiducha/static/js/main.72426b1e.js",
+    "main.js": "/fiducha/static/js/main.be7ab3f0.js",
     "static/js/787.d2d6b9f6.chunk.js": "/fiducha/static/js/787.d2d6b9f6.chunk.js",
     "static/media/hero1.jpg": "/fiducha/static/media/hero1.ccc800612a3af6042ce3.jpg",
     "static/media/hero.jpeg": "/fiducha/static/media/hero.1316fcdaf5152c455bd1.jpeg",
@@ -18,11 +18,11 @@
     "static/media/download.jpeg": "/fiducha/static/media/download.3df5b9a4efa3ac64c060.jpeg",
     "index.html": "/fiducha/index.html",
     "main.db8f3442.css.map": "/fiducha/static/css/main.db8f3442.css.map",
-    "main.72426b1e.js.map": "/fiducha/static/js/main.72426b1e.js.map",
+    "main.be7ab3f0.js.map": "/fiducha/static/js/main.be7ab3f0.js.map",
     "787.d2d6b9f6.chunk.js.map": "/fiducha/static/js/787.d2d6b9f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db8f3442.css",
-    "static/js/main.72426b1e.js"
+    "static/js/main.be7ab3f0.js"
   ]
 }
