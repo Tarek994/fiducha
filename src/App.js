@@ -40,7 +40,7 @@ function App() {
 
       <div id="section-1"></div>
       <Routes>
-        <Route exact path="/" element={<Navigate replace to="/fiducha" />} />
+        <Route exact path="*" element={<Navigate replace to="/fiducha" />} />
 
         <Route exact path="/fiducha" element={<Home />} />
         <Route exact path="/fiducha/whoWeAre" element={<WhoWeAre />} />
