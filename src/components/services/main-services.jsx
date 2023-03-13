@@ -31,7 +31,7 @@ const MainServices = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Link to="/digitalMarketing" className="btn btn-primary">
+                <Link to="/fiducha/services/digitalMarketing" className="btn btn-primary">
                   Go to Services
                 </Link>
               </Card.Body>
@@ -55,7 +55,7 @@ const MainServices = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Link to="/marketing" className="btn btn-primary">
+                <Link to="/fiducha/services/marketing" className="btn btn-primary">
                   Go to Services
                 </Link>
               </Card.Body>
