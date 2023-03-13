@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useEffect } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   useLocation,
@@ -43,6 +43,7 @@ function App() {
         <Route exact path="*" element={<Navigate replace to="/fiducha" />} />
 
         <Route exact path="/fiducha" element={<Home />} />
+
         <Route exact path="/fiducha/whoWeAre" element={<WhoWeAre />} />
         <Route exact path="/fiducha/services" element={<MainServices />} />
         <Route
