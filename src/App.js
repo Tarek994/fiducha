@@ -10,7 +10,6 @@ import {
 
 import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
-// import Services from "./components/services/services";
 import Portfolio from "./components/portfolio/portfolio";
 import Team from "./components/team/team";
 import Happen from "./components/happen/happen";
@@ -51,7 +50,11 @@ function App() {
           path="/fiducha/services/digitalMarketing"
           element={<DigitalMarketing />}
         />
-        <Route exact path="/fiducha/services/marketing" element={<Marketing />} />
+        <Route
+          exact
+          path="/fiducha/services/marketing"
+          element={<Marketing />}
+        />
 
         <Route exact path="/fiducha/portfolio" element={<Portfolio />} />
         <Route exact path="/fiducha/team" element={<Team />} />
