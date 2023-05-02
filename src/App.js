@@ -59,8 +59,8 @@ function App() {
         <Route exact path="/fiducha/portfolio" element={<Portfolio />} />
         <Route exact path="/fiducha/team" element={<Team />} />
         <Route exact path="/fiducha/happen" element={<Happen />} />
+        <Route exact path="/fiducha/contact" element={<Contact />} />
       </Routes>
-      <Contact />
       <Footer />
       <CopyRight />
     </Router>
