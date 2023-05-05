@@ -39,7 +39,7 @@ const MainServices = () => {
           </div>
         </div>
 
-        <div className="col-md-6 col-sm-12 mb-4">
+        {/* <div className="col-md-6 col-sm-12 mb-4">
           <div className="cardss-2">
             <Card className="card-style">
               <div style={{ position: "relative" }}>
@@ -61,7 +61,7 @@ const MainServices = () => {
               </Card.Body>
             </Card>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
