@@ -14,7 +14,7 @@ const MainServices = () => {
         </div>
       </div>
 
-      <div className="row services-cards justify-content-center">
+      <div className="row services-cards ">
         <div className="col-md-6 col-sm-12 mb-4 ">
           <div className="cardss-1">
             <Card className="card-style">
