@@ -20,16 +20,12 @@
   color: #6c757d;
 }
 
-.services-cards {
-  max-width: 1400px;
+.main-cards {
   margin: auto;
+  max-width: 1400px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
-
-
 
 .cardss-1 {
   width: 30%;
