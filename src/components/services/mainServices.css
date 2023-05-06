@@ -74,7 +74,11 @@
 
 .body-center {
   padding: 0rem 1rem;
-  text-align: center;
+}
+
+.offers {
+  text-align: left;
+  margin-bottom: 7rem;
 }
 
 .bold {
