@@ -89,6 +89,10 @@
     margin: auto;
     flex-direction: column;
   }
+  .main-cards {
+    display: flex;
+    flex-direction: column;
+  }
 
   .cardss {
     width: 100%;
