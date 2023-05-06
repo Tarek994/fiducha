@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import WhoWeAre from "../whoWeAre/whoWeAre";
 import Team from "../team/team";
 import "./home.css";
+import Contact from "../contact/contact";
 
 const Home = () => {
   return (
@@ -24,7 +25,9 @@ const Home = () => {
       </section>
       <WhoWeAre />
       <Team />
+      <Contact/>
     </div>
+    
   );
 };
 
