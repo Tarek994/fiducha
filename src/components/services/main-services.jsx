@@ -3,6 +3,7 @@ import download from "./images/download.jpeg";
 import { Link } from "react-router-dom";
 import "./mainServices.css";
 import "../../index.css";
+import Contact from "../contact/contact"
 
 const MainServices = () => {
   return (
@@ -129,8 +130,9 @@ const MainServices = () => {
               </Card.Body>
             </Card>
           </div>
-        </div> */}
+        </div>
       </div>
+      <Contact/>
     </div>
   );
 };
