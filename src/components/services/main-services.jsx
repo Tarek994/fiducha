@@ -1,5 +1,7 @@
 import Card from "react-bootstrap/Card";
-import download from "./images/download.jpeg";
+import alt from "./images/atl-01.jpg";
+import blt from "./images/BTL-marketing.jpg";
+import ttl from "./images/ttl-marketing.jpg";
 import { Link } from "react-router-dom";
 import "./mainServices.css";
 import "../../index.css";
@@ -24,7 +26,7 @@ const MainServices = () => {
               <div style={{ position: "relative" }}>
                 <Card.Img
                   variant="top"
-                  src={download}
+                  src={alt}
                   style={{ width: "100%", height: "auto" }}
                 />
               </div>
@@ -53,7 +55,7 @@ const MainServices = () => {
               <div style={{ position: "relative" }}>
                 <Card.Img
                   variant="top"
-                  src={download}
+                  src={blt}
                   style={{ width: "100%", height: "auto" }}
                 />
               </div>
@@ -98,7 +100,7 @@ const MainServices = () => {
               <div style={{ position: "relative" }}>
                 <Card.Img
                   variant="top"
-                  src={download}
+                  src={ttl}
                   style={{ width: "100%", height: "auto" }}
                 />
               </div>
