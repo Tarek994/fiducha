@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fiducha/static/css/main.db8f3442.css",
-    "main.js": "/fiducha/static/js/main.ede1db1c.js",
+    "main.css": "/fiducha/static/css/main.1e2f4cca.css",
+    "main.js": "/fiducha/static/js/main.74170774.js",
     "static/js/787.d2d6b9f6.chunk.js": "/fiducha/static/js/787.d2d6b9f6.chunk.js",
     "static/media/hero1.jpg": "/fiducha/static/media/hero1.ccc800612a3af6042ce3.jpg",
     "static/media/hero.jpeg": "/fiducha/static/media/hero.1316fcdaf5152c455bd1.jpeg",
@@ -10,19 +10,21 @@
     "static/media/footer.jpeg": "/fiducha/static/media/footer.fbb9e5da936e07a94c56.jpeg",
     "static/media/portfolio-img5.jpg": "/fiducha/static/media/portfolio-img5.f5d81926a593f6b1b12d.jpg",
     "static/media/team2.webp": "/fiducha/static/media/team2.464eff63c3a8ab588cd5.webp",
+    "static/media/BTL-marketing.jpg": "/fiducha/static/media/BTL-marketing.db40c98f1a0749a6ea17.jpg",
+    "static/media/atl-01.jpg": "/fiducha/static/media/atl-01.c238da56e23710b083b6.jpg",
     "static/media/portfolio-img1.jpg": "/fiducha/static/media/portfolio-img1.9cc0e2ba0ca3bc781c34.jpg",
     "static/media/portfolio-img3.jpg": "/fiducha/static/media/portfolio-img3.9808ee499a1984accaf5.jpg",
     "static/media/portfolio-img6.jpg": "/fiducha/static/media/portfolio-img6.93f79099cd25219ee7ef.jpg",
     "static/media/portfolio-img4.jpg": "/fiducha/static/media/portfolio-img4.e4d041c302ec5b4f3017.jpg",
     "static/media/portfolio-img2.jpg": "/fiducha/static/media/portfolio-img2.7dd88075faeae17ce91f.jpg",
-    "static/media/download.jpeg": "/fiducha/static/media/download.3df5b9a4efa3ac64c060.jpeg",
+    "static/media/ttl-marketing.jpg": "/fiducha/static/media/ttl-marketing.4f8313181590fac6b0bd.jpg",
     "index.html": "/fiducha/index.html",
-    "main.db8f3442.css.map": "/fiducha/static/css/main.db8f3442.css.map",
-    "main.ede1db1c.js.map": "/fiducha/static/js/main.ede1db1c.js.map",
+    "main.1e2f4cca.css.map": "/fiducha/static/css/main.1e2f4cca.css.map",
+    "main.74170774.js.map": "/fiducha/static/js/main.74170774.js.map",
     "787.d2d6b9f6.chunk.js.map": "/fiducha/static/js/787.d2d6b9f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db8f3442.css",
-    "static/js/main.ede1db1c.js"
+    "static/css/main.1e2f4cca.css",
+    "static/js/main.74170774.js"
   ]
 }
