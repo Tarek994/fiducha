@@ -15,7 +15,7 @@ const CopyRight = () => {
           </div>
           <div className="col-md-4 col-sm-4 col-xs-3">
             <Link
-              to="#section-1"
+              to="section-1"
               className="smoothScroll fa fa-angle-up"
             ></Link>
           </div>

@@ -7,7 +7,7 @@ const Marketing = () => {
       <div class="container">
         <div className="row center">
           <div className="col-md-12 col-sm-12 text-center">
-            <h1 className="heading bold title">MARKETING</h1>
+            <h1 className="heading bold title background">MARKETING</h1>
             <h2 className="subheading">
               Strategic planning. Measurable results
             </h2>

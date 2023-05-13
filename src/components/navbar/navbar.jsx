@@ -26,17 +26,17 @@ const Navbar = () => {
         <div className="collapse navbar-collapse">
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <Link to="/" className="smoothScroll">
+              <Link to="/fiducha/" className="smoothScroll">
                 HOME
               </Link>
             </li>
             <li>
-              <Link to="services" className="smoothScroll">
+              <Link to="/fiducha/services" className="smoothScroll">
                 SERVICES
               </Link>
             </li>
             <li>
-              <Link to="portfolio" className="smoothScroll">
+              <Link to="/fiducha/portfolio" className="smoothScroll">
                 PORTFOLIO
               </Link>
             </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
               </Link> */}
             </li>
             <li>
-              <Link to="contact" className="smoothScroll">
+              <Link to="/fiducha/contact" className="smoothScroll">
                 CONTACT
               </Link>
             </li>

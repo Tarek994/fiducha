@@ -1,14 +1,15 @@
 import "./App.css";
 import React, { useEffect } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   useLocation,
+  Navigate,
 } from "react-router-dom";
+
 import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
-// import Services from "./components/services/services";
 import Portfolio from "./components/portfolio/portfolio";
 import Team from "./components/team/team";
 import Happen from "./components/happen/happen";
@@ -32,32 +33,37 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <>
-      <Router>
-        <ScrollToTop />
-        <Navbar />
+    <Router>
+      <ScrollToTop />
+      <Navbar />
 
-        <div id="section-1"></div>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/WhoWeAre" element={<WhoWeAre />} />
-          <Route exact path="/services" element={<MainServices />} />
-          <Route
-            exact
-            path="/digitalMarketing"
-            element={<DigitalMarketing />}
-          />
-          <Route exact path="/marketing" element={<Marketing />} />
+      <div id="section-1"></div>
+      <Routes>
+        <Route exact path="*" element={<Navigate replace to="/fiducha" />} />
 
-          <Route exact path="/portfolio" element={<Portfolio />} />
-          <Route exact path="/team" element={<Team />} />
-          <Route exact path="/happen" element={<Happen />} />
-        </Routes>
-        <Contact />
-        <Footer />
-        <CopyRight />
-      </Router>
-    </>
+        <Route exact path="/fiducha" element={<Home />} />
+
+        <Route exact path="/fiducha/whoWeAre" element={<WhoWeAre />} />
+        <Route exact path="/fiducha/services" element={<MainServices />} />
+        <Route
+          exact
+          path="/fiducha/services/digitalMarketing"
+          element={<DigitalMarketing />}
+        />
+        <Route
+          exact
+          path="/fiducha/services/marketing"
+          element={<Marketing />}
+        />
+
+        <Route exact path="/fiducha/portfolio" element={<Portfolio />} />
+        <Route exact path="/fiducha/team" element={<Team />} />
+        <Route exact path="/fiducha/happen" element={<Happen />} />
+        <Route exact path="/fiducha/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+      <CopyRight />
+    </Router>
   );
 }
 export default App;
