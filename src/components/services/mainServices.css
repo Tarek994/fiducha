@@ -62,11 +62,12 @@
 
 .cardss .card-img-top {
   position: relative;
+
 }
 
 .cardss .card-img-top img {
   width: 100%;
-  height: auto;
+  height: 100px;
 }
 
 .body-center {
