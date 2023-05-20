@@ -16,7 +16,7 @@ const Home = () => {
                 <span className="bold">WE ARE A MARKETING AGENCY</span>
               </h3>
               <h1 className="heading">FROM EGYPT TO THE WORLD</h1>
-              <Link to="about" className="smoothScroll btn btn-default">
+              <Link to="services" className="smoothScroll btn btn-default">
                 Our Process
               </Link>
             </div>
