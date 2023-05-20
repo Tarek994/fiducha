@@ -11,7 +11,7 @@ const WhoWeAre = () => {
       <div className="max-width col-12">
         <div className="col-12 ">
           <h1 className="Who-title">WHO WE ARE</h1>
-          <h2 className="subheading bold">what can we do for you?</h2>
+          <h2 className="subheading bold"> </h2>
         </div>
         <div className="main-des col-lg-12 wow " data-wow-delay="0.9s">
           <div
