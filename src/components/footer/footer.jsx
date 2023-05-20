@@ -11,7 +11,7 @@ const Footer = () => {
             <ul className="social-icon">
               <li>
                 <Link
-                  to="#"
+                  to=""
                   className="fa fa-facebook wow bounceIn"
                   data-wow-delay="0.3s"
                   target="_parent"
@@ -26,8 +26,8 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="#"
-                  className="fa fa-behance wow bounceIn"
+                  to="https://www.linkedin.com/company/fiducha-adv/about/"
+                  className="fa fa-linkedin wow bounceIn"
                   data-wow-delay="0.9s"
                 ></Link>
               </li>
