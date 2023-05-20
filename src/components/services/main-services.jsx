@@ -5,7 +5,7 @@ import ttl from "./images/ttl-marketing.jpg";
 import { Link } from "react-router-dom";
 import "./mainServices.css";
 import "../../index.css";
-import Contact from "../contact/contact"
+import Contact from "../contact/contact";
 
 const MainServices = () => {
   return (
