@@ -53,11 +53,7 @@ const MainServices = () => {
           <div className="cardss-1">
             <Card className="card-style">
               <div style={{ position: "relative" }}>
-                <Card.Img
-                  variant="top"
-                  src={blt}
-                  style={{ width: "100%", height: "auto" }}
-                />
+                <Card.Img variant="top" src={blt} style={{ width: "100%" }} />
               </div>
               <Card.Body className="body-center">
                 <Card.Title className="bold">BTL</Card.Title>
