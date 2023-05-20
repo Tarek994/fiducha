@@ -5,7 +5,7 @@ import ttl from "./images/ttl-marketing.jpg";
 import { Link } from "react-router-dom";
 import "./mainServices.css";
 import "../../index.css";
-import Contact from "../contact/contact"
+import Contact from "../contact/contact";
 
 const MainServices = () => {
   return (
@@ -39,7 +39,7 @@ const MainServices = () => {
                     TV
                   </p>
                 </Card.Text>
-                <Link to="" className="btn btn-primary-ser">
+                <Link to="/fiducha/contact" className="btn btn-primary-ser">
                   Get it now
                 </Link>
               </Card.Body>
@@ -80,7 +80,7 @@ const MainServices = () => {
                     Printing
                   </p>
                 </Card.Text>
-                <Link to="" className="btn btn-primary-ser">
+                <Link to="/fiducha/contact" className="btn btn-primary-ser">
                   Get it now
                 </Link>
               </Card.Body>
@@ -114,7 +114,7 @@ const MainServices = () => {
                     <br />
                   </p>
                 </Card.Text>
-                <Link to="" className="btn btn-primary-ser">
+                <Link to="/fiducha/contact" className="btn btn-primary-ser">
                   Get it now
                 </Link>
               </Card.Body>
@@ -122,7 +122,7 @@ const MainServices = () => {
           </div>
         </div>
       </div>
-      <Contact/>
+      <Contact />
     </div>
   );
 };
