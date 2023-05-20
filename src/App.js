@@ -45,7 +45,7 @@ function App() {
 
         <Route exact path="/fiducha/whoWeAre" element={<WhoWeAre />} />
         <Route exact path="/fiducha/services" element={<MainServices />} />
-        <Route
+        {/* <Route
           exact
           path="/fiducha/services/digitalMarketing"
           element={<DigitalMarketing />}
@@ -54,7 +54,7 @@ function App() {
           exact
           path="/fiducha/services/marketing"
           element={<Marketing />}
-        />
+        /> */}
 
         <Route exact path="/fiducha/portfolio" element={<Portfolio />} />
         <Route exact path="/fiducha/team" element={<Team />} />
