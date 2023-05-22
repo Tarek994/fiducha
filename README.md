@@ -1,1 +1,1 @@
-Feduccia is a marketing agency website.
+Fiducha is a marketing agency website.
