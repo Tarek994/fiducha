@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fiducha/static/css/main.1e2f4cca.css",
-    "main.js": "/fiducha/static/js/main.74170774.js",
+    "main.css": "/fiducha/static/css/main.7054c15d.css",
+    "main.js": "/fiducha/static/js/main.e80d4ce7.js",
     "static/js/787.d2d6b9f6.chunk.js": "/fiducha/static/js/787.d2d6b9f6.chunk.js",
     "static/media/hero1.jpg": "/fiducha/static/media/hero1.ccc800612a3af6042ce3.jpg",
     "static/media/hero.jpeg": "/fiducha/static/media/hero.1316fcdaf5152c455bd1.jpeg",
@@ -19,12 +19,12 @@
     "static/media/portfolio-img2.jpg": "/fiducha/static/media/portfolio-img2.7dd88075faeae17ce91f.jpg",
     "static/media/ttl-marketing.jpg": "/fiducha/static/media/ttl-marketing.4f8313181590fac6b0bd.jpg",
     "index.html": "/fiducha/index.html",
-    "main.1e2f4cca.css.map": "/fiducha/static/css/main.1e2f4cca.css.map",
-    "main.74170774.js.map": "/fiducha/static/js/main.74170774.js.map",
+    "main.7054c15d.css.map": "/fiducha/static/css/main.7054c15d.css.map",
+    "main.e80d4ce7.js.map": "/fiducha/static/js/main.e80d4ce7.js.map",
     "787.d2d6b9f6.chunk.js.map": "/fiducha/static/js/787.d2d6b9f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e2f4cca.css",
-    "static/js/main.74170774.js"
+    "static/css/main.7054c15d.css",
+    "static/js/main.e80d4ce7.js"
   ]
 }
